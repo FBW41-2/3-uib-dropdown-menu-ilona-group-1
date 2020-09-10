@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+}
+
+.nav-btn {
+    padding: 15px 20px;
+    
+}
+
+.sub-nav-content {
+    position: absolute;
+    width: 100vw;
+}
+
+.sub-nav-content a {
+    display: none;
+    padding: 15px 20px;
+}
+
+.sub-nav:hover .sub-nav-content a { 
+    display: block;
+    background-color: blue;
+}
+
+/* need to move arrow to the top */
+.nav-btn a:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0dd";
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+ 
+
+
+/* For Dan */
+/* our previous layout */
+
+/*
+.sub-nav {
+    padding: 30px;
+}
+
+.sub-nav-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: violet;
+    padding: 30px;
+}
+
+.sub-nav-content a {
+    display: block;
+
+}
+
+.sub-nav:hover {
+    background-color: violet;
+}
+
+.sub-nav:hover .sub-nav-content {
+    display: block;
+} */
