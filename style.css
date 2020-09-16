@@ -17,6 +17,14 @@ nav {
     padding: 15px 20px;
 }
 
+.nav-btn a::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0dd";
+    font-weight: 900;
+    margin-left: 10px;
+    vertical-align: 10%;
+}
+
 .sub-nav-content {
     position: absolute;
     width: 100vw;
@@ -32,14 +40,13 @@ nav {
     background-color: #2688cd;
 }
 
-/* need to move arrow to the top */
-.nav-btn a:after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f0dd";
-    font-weight: 900;
-    margin-left: 5px;
+.nav-btn:hover {
+    background-color: #2688cd;
 }
-
+.sub-nav:hover .sub-nav-content a:hover {
+    background-color: lightgray;
+    color: black;
+}
 
 
 
